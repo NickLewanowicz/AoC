@@ -1,4 +1,4 @@
-var {run} = require("../utilities");
+var {run} = require("../../utilities");
 var fs = require("fs");
 var text = fs.readFileSync("./part_1.txt", "utf-8");
 var lines = text.split("\n")
